@@ -57,7 +57,8 @@ body {
 .bannar-section {
   height: 80vh;
   /* background-image: url("../images/bannar.png"); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.325),rgba(0, 0, 0, 0.323)),url("../images/bannar.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.325), rgba(0, 0, 0, 0.323)),
+    url("../images/bannar.png");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -80,4 +81,49 @@ body {
 .join-btn:hover {
   background-color: orange;
   cursor: pointer;
+}
+/* <!-- TUTOR SECTION HERE --> */
+.title {
+  text-align: center;
+  padding: 10px 0px;
+}
+.title > h1 {
+  color: orange;
+}
+.single-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+}
+.single-card:hover {
+  box-shadow: 0px 0px 10px lightgray;
+  cursor: pointer;
+}
+.single-card > img {
+  border-radius: 200px;
+}
+.facebook,
+.instragram,
+.twitter {
+  color: blue;
+}
+.facebook:hover {
+  color: orange;
+  cursor: pointer;
+}
+.instragram:hover {
+  color: orange;
+  cursor: pointer;
+}
+.twitter:hover {
+  color: orange;
+  cursor: pointer;
+}
+.tutor-card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
 }
