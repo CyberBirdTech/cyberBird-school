@@ -127,3 +127,20 @@ body {
   grid-template-columns: auto auto auto;
   gap: 15px;
 }
+/* <!-- TESTIMONIAL SECTION HERE --> */
+.inner-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.inner-card > img {
+  border-radius: 200px;
+}
+.testimonial-card {
+  display: flex;
+  gap: 30px;
+}
+.testimonial-single-card {
+  border: 1px solid lightgray;
+  padding: 20px;
+}
