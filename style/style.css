@@ -52,3 +52,32 @@ body {
   background-color: orange;
   border-radius: 3px;
 }
+
+/* BANNAR SECTION HERE */
+.bannar-section {
+  height: 80vh;
+  /* background-image: url("../images/bannar.png"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.325),rgba(0, 0, 0, 0.323)),url("../images/bannar.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.bannar > h4 {
+  color: orange;
+  margin-bottom: 8px;
+}
+.bannar > h1 {
+  color: white;
+}
+.join-btn {
+  color: white;
+  border: 1px solid orange;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 5px 10px;
+  margin-top: 6px;
+}
+.join-btn:hover {
+  background-color: orange;
+  cursor: pointer;
+}
